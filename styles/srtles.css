@@ -12,7 +12,7 @@
     padding: 0;
 }
 
-/* Style banner section----------------------style banner section */
+/* 1st part (banner section----------------------banner section) */
 .banner{
     background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
     url(../images/Banner\ Image.png);
@@ -51,7 +51,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
-/* Style offer section----------------------Style offer section */
+/*2nd part (offer section---------------------- offer section) */
 .offer{
     width:802px;
     height:800px ;
@@ -94,3 +94,65 @@
     border: 1px dashed gray;
     background: rgb(255, 255, 255);
 }
+/*3rd part (Party Style--------------------------------Party Style) */
+.party{
+    width:1320px ;
+    height:600px ;
+    /* border: 3px solid skyblue; */
+    margin: 0 auto;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) ,url(../images/Vectorrr.png);
+    border-radius: 16px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.party .party-container{
+    display: flex;
+    gap:0px;
+}
+.party .party-container .party-text .party-title{
+    width:620px;
+    height:176px ;
+    /* border: 2px solid seashell; */
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 20%;
+    text-align: left;
+    margin: 126px 94px 24px 126px;
+}
+.party .party-container .party-text .party-des{
+    width: 697px;
+    height:60px;
+    /* border: 2px solid whitesmoke; */
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 39px 48px 126px;
+}
+.party .party-container .party-text .party-spn{
+    width: 103px;
+    height:24px ;
+    /* border: 2px solid whitesmoke;  */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 48px 0px 142px 158px;
+}
+.party .party-container .party-pic{
+    width: 349.16px;
+    height: 464.65px;
+    border: 2px dashed gray;
+    margin: 68px 108px 67px 0px;
+}
+
