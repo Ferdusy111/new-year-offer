@@ -51,6 +51,28 @@
     letter-spacing: 0%;
     text-align: center;
 }
+/* Responsive banner section________________________________________ */
+/* For small device */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        width: auto;
+        margin: 10px 5px 0px 5px;
+    }  
+}
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner{
+        width:100% ;
+        margin: 0 auto;
+        height: 400px;
+        margin-top: 5px;
+    }
+}
+
+
 /*2nd part (offer section---------------------- offer section) */
 .offer{
     width:802px;
@@ -154,5 +176,45 @@
     height: 464.65px;
     border: 2px dashed gray;
     margin: 68px 108px 67px 0px;
+}
+/* 4th part (time style----------------------------time style) */
+.time{
+    width:1320px ;
+    height:482px ;
+    border: 2px solid blue;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.time .address{
+    width: 549px;
+    height:168px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin: 100px 386px 214px 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time .address .place-holder{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+     color: rgb(255, 0, 0);
+}
+.time .address .place-text{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(7, 2, 17);
+
 }
 
