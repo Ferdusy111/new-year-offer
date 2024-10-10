@@ -141,7 +141,7 @@
 
 
 
-    
+
 }
 
     
@@ -207,6 +207,50 @@
     border: 2px dashed gray;
     margin: 68px 108px 67px 0px;
 }
+/* Responsive party style___________________________________*/
+/* For small device */
+@media screen and (max-width:576px) {
+    .party{
+        background-image: none;
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    .party-text{
+        max-width: 100%;
+    }
+    .party .party-container .party-text .party-title{
+        color: black;
+        margin: 0;
+        width: 20px;
+        margin-bottom: 150px;
+        margin-left: 5px;
+    }
+    .party .party-container .party-text .party-des{
+        margin: 0;
+        color: black;
+        max-width: 80%;
+        height: 0%;
+        margin-bottom: 10px;
+    }
+    .party .party-container .party-text .party-spn{
+        width: 0px;
+        height: 0px;
+        margin: 0%;
+        color: black;
+    }
+    .party .party-container{
+        flex-direction: column;
+    }
+    .party .party-container .party-pic{
+        margin-top: 50px;
+    }  
+}
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
+
+
 /* 4th part (time style----------------------------time style) */
 .time{
     width:1320px ;
