@@ -61,11 +61,14 @@
         width: auto;
         margin: 10px 5px 0px 5px;
     }  
+    .banner .banner-container .banner-title{
+        font-size: 60px;
+    }
 }
 /* For medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     .banner{
-        width:100% ;
+        max-width:100% ;
         margin: 0 auto;
         height: 400px;
         margin-top: 5px;
@@ -116,6 +119,33 @@
     border: 1px dashed gray;
     background: rgb(255, 255, 255);
 }
+/* Responsive offer section___________________________________ */
+/* For small device */
+@media screen and (max-width:576px) {
+    .offer{
+        width: auto;
+    }
+    .offer .offer-img{
+        height: auto;
+    }
+    .offer .offer-img .picture{
+        border: none;
+        max-width: 100%;
+        height: auto;
+    }  
+} 
+/* For medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+
+
+
+
+    
+}
+
+    
+
 /*3rd part (Party Style--------------------------------Party Style) */
 .party{
     width:1320px ;
