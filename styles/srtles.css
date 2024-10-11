@@ -1,18 +1,23 @@
 /* Font Style---------------------------------Font Style */
 /* Merriweather */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-.fnt-1{font-family: "Merriweather", system-ui;}
 /* Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-.fnt-2{font-family: "Inter", system-ui;}
 
+/* Shared Style------------------ */
+.font-1{
+    font-family: "Merriweather", system-ui;
+}
+.font-2{
+    font-family: "Inter", system-ui;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-/* 1st part (banner section----------------------banner section) */
+/* __________________________________1ST PART___________________________________ */
+/*banner section-------------------------*/
 .banner{
     background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
     url(../images/Banner\ Image.png);
@@ -51,7 +56,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
-/* Responsive banner section________________________________________ */
+/* Responsive banner section--------------------------------------*/
 /* For small device */
 .hide{
     display: none;
@@ -75,8 +80,8 @@
     }
 }
 
-
-/*2nd part (offer section---------------------- offer section) */
+/* ____________________________________2ND PART________________________________ */
+/*offer section---------------------------------------*/
 .offer{
     width:802px;
     height:800px ;
@@ -119,7 +124,7 @@
     border: 1px dashed gray;
     background: rgb(255, 255, 255);
 }
-/* Responsive offer section___________________________________ */
+/* Responsive offer section---------------------------------------- */
 /* For small device */
 @media screen and (max-width:576px) {
     .offer{
@@ -145,8 +150,8 @@
 }
 
     
-
-/*3rd part (Party Style--------------------------------Party Style) */
+/* _______________________________3RD PART______________________________________ */
+/*Party Style--------------------------------------- */
 .party{
     width:1320px ;
     height:600px ;
@@ -207,13 +212,13 @@
     border: 2px dashed gray;
     margin: 68px 108px 67px 0px;
 }
-/* Responsive party style___________________________________*/
+/* Responsive party style-------------------------------------------*/
 /* For small device */
 @media screen and (max-width:576px) {
     .party{
         background-image: none;
         max-width: 100%;
-        margin-top: 100px;
+        margin-top: 40px;
     }
     .party-text{
         max-width: 100%;
@@ -231,6 +236,7 @@
         max-width: 80%;
         height: 0%;
         margin-bottom: 10px;
+        margin-left: 5px;
     }
     .party .party-container .party-text .party-spn{
         width: 0px;
@@ -250,45 +256,61 @@
     
 }
 
-
-/* 4th part (time style----------------------------time style) */
-.time{
+/* __________________________________4TH PART____________________________________ */
+/* address style--------------------------------*/
+.address{
     width:1320px ;
     height:482px ;
-    border: 2px solid blue;
     margin: 0 auto;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-}
-.time .address{
-    width: 549px;
-    height:168px;
-    border: 2px solid black;
-    margin: 0 auto;
-    margin: 100px 386px 214px 385px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.time .address .place-holder{
+.address .text{
+    width:549px ;
+    height:272px ;
+    margin: 0 auto;
+    /* border: 2px solid black;  */
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-     color: rgb(255, 0, 0);
 }
-.time .address .place-text{
+.text .holder{
+    color: rgb(255, 0, 0);
+}
+.text .red-btn{
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
-    color: rgb(7, 2, 17);
+    text-transform: uppercase;
+    border: none;
+    margin-top: 48px;
+}
+/*Responsive address--------------------------------  */
+/* For small device */
+@media screen and (max-width:576px) {
+    .address{
+        max-width: 95%;
+        margin-top: 500px;
+    }
+}
+/* For medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+}
 
-}
+/*___________________________________5TH PART____________________________________ */
+
 
