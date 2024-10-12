@@ -397,6 +397,7 @@
     border: 2px dashed gray;
 }
 /*Responsive coming soon----------------------------------  */
+/* For small device */
 @media screen and (max-width:576px) {
     .coming-soon{
         max-width: 100%;
@@ -406,6 +407,7 @@
         width: 100%;
         margin-top: 0px;
         margin-bottom: 10px;
+        margin-left: 5px;
     }
     .coming-soon .pic{
         width: 90%;
@@ -414,7 +416,145 @@
     }
     .coming-soon .right{
         margin-top: 0px;
+        margin-left: 5px;
     } 
 }
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
 
+
+/* _______________________________________6TH PART_____________________________________ */
+/* holiday-sale style--------------------------------- */
+.holiday-sale{
+    width:1320px ;
+    height:986.07px ;
+    margin: 0 auto;
+    margin-top:120px ;
+    border: 2px solid blue;
+}
+.holiday-sale .sale-info{
+    width:1068px ;
+    height:260px ;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.holiday-sale .sale-info .title{ 
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.holiday-sale .sale-info .sub-title{ 
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin-bottom: 28px;
+}
+.holiday-sale .sale-info .span{
+    color: rgb(255, 0, 0)
+}
+.holiday-sale .sale-info .description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday-sale .box-card{
+    width:1320px ;
+    height:662.07px;
+    border: 2px solid pink;
+}
+
+
+
+
+/* __________________________________________7TH PART_________________________________ */
+/* best gifts style------------------------------- */
+.best-gifts{
+    width:1320px ;
+    height:1163px ;
+    margin: 0 auto;
+    margin-top:120px ;
+    /* border: 2px solid pink; */
+}
+.best-gifts .gift-title{ 
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.best-gifts .gift-subtitle{ 
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+} 
+.best-gifts .gift-description{ 
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin-bottom: 48px;
+}
+.best-gifts .gallery{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 24px;  
+}
+.best-gifts .pic{
+    width:424px ;
+    height:450px ;
+    border: 1px dashed grey;
+}
+/* Responsive best gifts-------------------------------------- */
+/* For small devices */
+@media screen and (max-width:576px) {
+    .best-gifts{
+        max-width: 100%;
+        margin-top:600px;
+    }
+    .best-gifts .gallery{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 0px;
+    }
+    .best-gifts .pic{
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+    }
+    .best-gifts .gift-title{
+        margin-left: 5px;
+    } 
+    .best-gifts .gift-subtitle{
+        margin-left: 5px;
+    }
+    .best-gifts .gift-description{
+        margin-left: 5px;
+    } 
+}
+/* For medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
+
+
+/* ___________________________________8TH PART_________________________________ */
 
