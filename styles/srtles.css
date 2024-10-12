@@ -312,5 +312,109 @@
 }
 
 /*___________________________________5TH PART____________________________________ */
+/* coming soon style-------------------------- */
+.coming-soon{
+    width:1320px ;
+    height:463px ;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.coming-soon .left{
+    width:393px ;
+    height:255px ;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    /* border: 2px solid blue; */
+}
+.coming-soon .left .title{ 
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+.coming-soon .left .title-des{
+     color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.coming-soon .left .title-info{ 
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.coming-soon .pic{
+    width:463px ;
+    height: 463px;
+    margin-left:70px ;
+    margin-right:118px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.coming-soon .picture .pic{
+    
+
+    
+}
+.coming-soon .right{
+    width:276px ;
+    height:170px ;
+    margin-top: 112px;
+    /* border: 2px solid black; */
+}
+.coming-soon .right .year{
+     color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.coming-soon .right .title-info{
+     color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+.coming-soon .right .logo{
+    border: 2px dashed gray;
+}
+/*Responsive coming soon----------------------------------  */
+@media screen and (max-width:576px) {
+    .coming-soon{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .coming-soon .left{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .coming-soon .pic{
+        width: 90%;
+        height: 90%;
+        margin-left: 0px;
+    }
+    .coming-soon .right{
+        margin-top: 0px;
+    } 
+}
 
 
