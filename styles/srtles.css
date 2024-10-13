@@ -557,4 +557,148 @@
 
 
 /* ___________________________________8TH PART_________________________________ */
+/* subscriber style----------------------- */
+.subscriber{
+    width:1320px ;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    /* border: 2px solid orangered; */
+    /* display: flex; */
+}
+.subscriber .subscriber-text{
+    width: 896px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* border: 2px solid black; */
+}
+.subscriber .subscriber-text .enveloup{
+    margin-left: 373px;
+    margin-top: 86px;
+    border: 2px dashed grey;
+}
+.subscriber .subscriber-text .subscriber-title{ 
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscriber .subscriber-text .subscriber-description{ 
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 22px;
+}
+.subscriber .subscriber-text .info{
+    position: absolute;
+    width: 648px;
+    height: 72px;
+    margin-top: 48px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+} 
+.subscriber .submit-item{
+    margin-top: 120px;
+    margin-left: 336px;
+}
+.subscriber .submit-item .text-field{ 
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    width:600px ;
+    height:60px ;
+    border: none;
+}
+.subscriber .submit-item .text-field::placeholder{ 
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+.subscriber .submit-item .submit-button{
+    width:150px ; 
+    height:60px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+}
+/* Responsive subscriber style------------------------------------ */
+/* For small device */
+@media screen and (max-width:576px) {
+     .subscriber{
+        max-width: 100%;
+        margin-top: 2000px;
+      } 
+      .subscriber .subscriber-text {
+        width: 90%;
+      }
+      .subscriber .subscriber-text .enveloup {
+        margin-left: 85px;
+        margin-top: 10px;
+      } 
+      .subscriber .submit-item {
+        margin-left: 35px;
+        margin-top: 200px;
+      }
+      .subscriber .submit-item .text-field {
+        width: 40%;
+      }
+}
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
+
+
+/* ________________________________9TH PART____________________________________ */
+/* footer style-------------------------- */
+.footer{
+    width:1600px ;
+    height:609px ;
+    margin-top: 120px;
+    background: rgb(7, 2, 17);
+    display: flex;
+}
+.footer .up-style{
+    width:1185px ;
+    height: 80px;
+    border: 2px solid white;
+    margin: 120px 275px 409px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+ .up-style .text{ 
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+hr{
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
 
